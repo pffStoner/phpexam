@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+}
+.post{
+    position: relative;
+    border-radius: 15px;
+    background: linear-gradient( to right
+                ,rgba(178, 243, 159, 0.986)
+                ,rgba(253, 253, 253, 0.986));
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.btn{
+    margin:0.5rem;
+}
+.post_form{
+    position: absolute;
+    display: inline;
+    right:0; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  .gallery-item {
+    width: 240px;
+    height: 320px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.1);
+    margin: 10px;
+  }
